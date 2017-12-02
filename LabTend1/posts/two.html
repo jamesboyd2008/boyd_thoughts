@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Boyd</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/styles0.css" />
+
+  </head>
+  <body>
+
+    <div class="wrapper">
+
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <!-- <div class="sidebar-header">
+                <h3>Large Words</h3>
+            </div> -->
+
+            <ul class="list-unstyled components">
+                <!-- <p>Unclickable words</p> -->
+                <li class="active">
+                  <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Blog Posts</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                      <li><a href="one.html">Post 1</a></li>
+                      <li><a href="two.html">Post 2</a></li>
+                      <li><a href="three.html">Post 3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../colors.html">Color Scheme</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content">
+
+          <!-- Masthead -->
+          <div class="jumbotron" name="top">
+            <h1 class="display-3">Boyd thoughts</h1>
+            <p class="lead">on life, liberty, and the pursuit of happiness.</p>
+          </div>
+
+          <div class="navbar-header">
+            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+              <span>Toggle Sidebar</span>
+            </button>
+          </div>
+
+          <h2>Second Post</h2>
+          <p>Browsing the internet, following whatever question arose in my imagination, I came across a video about obscure vehicles people have created. One such vehicle was called a <i>shaman</i>. Having recently been introduced to the idea of a shaman, I was intrigued regarding the nature of this vehicle and it's namer's familiarity with shamanism. Moreover, I'd like to know how many mechanical engineers are familiar with shamanism.  By <i>how many</i>, I mean how many in relation to the whole of mechanical engineers.</p>
+          <p>I'm interested in this because shamanism has to deal with spirituality and non-physical concepts. Mechanical engineers have generally invested a significant portion of their life into understanding the physical world. I make up that this sheer volume of time invested is of such a magnitude that someone who would have gone forward in making that investment has a high probability of believing that topics like spirituality are a black hole, because they aren't as physical as other topics. Part of me thinks its a stretch that the person or people who designed and constructed that vehicle give a rip about shamanism, it being a niche subject in the first place.</p>
+
+          <div class="line"></div>
+          <a href="#top">back to top</a>
+          <p>embed that shaman video</p>
+          <p>embed an intra-page redirection</p>
+          <p>embed a link to wikipedia shamanism</p>
+
+        </div>
+    </div>
+
+    <script src="../js/jquery-3.2.1.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#sidebarCollapse').on('click', function () {
+          $('#sidebar').toggleClass('active');
+        });
+      });
+    </script>
+
+  </body>
+</html>
