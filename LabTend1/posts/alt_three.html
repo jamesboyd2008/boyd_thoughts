@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Boyd</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/styles1.css" />
+
+  </head>
+  <body>
+
+    <div class="wrapper">
+
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <!-- <div class="sidebar-header">
+                <h3>Large Words</h3>
+            </div> -->
+
+            <ul class="list-unstyled components">
+                <!-- <p>Unclickable words</p> -->
+                <li class="active">
+                  <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Blog Posts</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                      <li><a href="one.html">Post 1</a></li>
+                      <li><a href="two.html">Post 2</a></li>
+                      <li><a href="three.html">Post 3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../colors.html">Color Scheme</a>
+                </li>
+                <li>
+                    <a href="three.html">Original Color Scheme</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content">
+
+          <!-- Masthead -->
+          <div class="jumbotron" name="top">
+            <h1 class="display-3">Boyd thoughts</h1>
+            <p class="lead">on life, liberty, and the pursuit of happiness.</p>
+          </div>
+
+          <div class="navbar-header">
+            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+              <span>Toggle Sidebar</span>
+            </button>
+          </div>
+
+          <h2>Third Post</h2>
+          <p>&nbsp;&nbsp;&nbsp;Conciously understanding the process by which people make decisions is an interest of mine. I'm not confident that I understand the very nature of being human, let alone the inner workings of people's minds. I can function in society. I can hold a job. I understand people's motives enough to get by, but a deeper understanding beckons me.</p>
+          <p>&nbsp;&nbsp;&nbsp;Its my perception that the deeper one delves into a particular train of thought, the higher the risk they run of flying wildly off course from that which is truthful. Here's an example: </p>
+
+          </br>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/k3jt5ibfRzw"></iframe>
+          </div>
+          </br>
+
+          <p>&nbsp;&nbsp;&nbsp;I enjoy living under the pretense that causality is universal. I draw out this notion so far as to dare to believe that, even in the 21st century, events happen for reasons. I relish in the joy, be it foolish or otherwise, that humans/humanity has a purpose. Please don't hold your breath in hopes of finding that purpose, or conviction of it's existence, within this blog.</p>
+          <p>&nbsp;&nbsp;&nbsp;Ultimately, I believe understanding itself is some kind of luxury. One needn't understand particle physics to breathe. One needn't understand a person to love them. One needn't understand logic to blog.
+          </p>
+
+          <div class="line"></div>
+          <a href="#top">back to top</a>
+
+        </div>
+    </div>
+
+    <script src="../js/jquery-3.2.1.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#sidebarCollapse').on('click', function () {
+          $('#sidebar').toggleClass('active');
+        });
+      });
+    </script>
+
+  </body>
+</html>
